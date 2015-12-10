@@ -11,7 +11,7 @@
 
 ##样例：
 
-###使用方法
+###1、使用步骤
 * 引入演样式文件（focus1/2/3）
 
 ```javascript
@@ -39,7 +39,27 @@ $('#slides').slides({
 				}
 			});
 ```
-###demo
+
+* 在页面上添加代码
+
+```javascript
+
+    <div id="slides" class="slidest">
+        <div class="slides_container">
+            <div class="slide">
+            滑动内容1
+            </div>
+            <div class="slide">
+             滑动内容2
+            </div>
+            <div class="slide">
+             滑动内容3
+            </div>
+        </div>
+    </div>
+    
+```
+###2、demo
 * [小图单页](http://192.168.14.97:8080/acc/lxj/focus/focus1/)
 * [中图双页](http://192.168.14.97:8080/acc/lxj/focus/focus2/)
 * [大图单页]( http://192.168.14.97:8080/acc/lxj/focus/focus3/)
