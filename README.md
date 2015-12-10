@@ -8,7 +8,38 @@
 * ie6+
 * Chrome 8+
 
+
 ##样例：
+
+###使用方法
+* 引入演样式文件（focus1/2/3）
+
+```javascript
+<link rel="stylesheet" href="css/focus1.css"> 
+```
+* 在页面头部引用Jquery库：jquery.min.js；
+* 以及该焦点图的实现代码：slides.min.jquery.js。
+
+```javascript
+<script src="javascript/jquery.min.js"></script>
+<script src="javascript/slides.min.jquery.js"></script>
+```
+ 
+* 在页面上配置使用参数：
+
+```javascript
+$('#slides').slides({
+        		preload: true,
+				preloadImage: 'images/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				slidesLoaded: function() {
+					
+				}
+			});
+```
+###demo
 * [小图单页](http://192.168.14.97:8080/acc/lxj/focus/focus1/)
 * [中图双页](http://192.168.14.97:8080/acc/lxj/focus/focus2/)
 * [大图单页]( http://192.168.14.97:8080/acc/lxj/focus/focus3/)
@@ -23,20 +54,6 @@ $('#slides').slides({
 				play: 5000,
 				pause: 2500,
 				hoverPause: true,
-				animationStart: function(current){
-					
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationStart on slide: ', current);
-					};
-				},
-				animationComplete: function(current){
-					
-					if (window.console && console.log) {
-						// example return of current slide number
-						console.log('animationComplete on slide: ', current);
-					};
-				},
 				slidesLoaded: function() {
 					
 				}
@@ -58,8 +75,6 @@ $('#slides').slides({
 
 ##下载地址
 https://github.com/hlh1007/slides-focus
-
-
 
 
 
