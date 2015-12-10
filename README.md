@@ -57,6 +57,7 @@ $('#slides').slides({
 * 2015年11月8日第一次更新
 
 ##下载地址
+https://github.com/hlh1007/slides-focus
 
 
 
