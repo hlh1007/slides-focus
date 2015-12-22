@@ -1,3 +1,13 @@
+
+```python
+@requires_authorization
+class SomeClass:
+    pass
+
+if __name__ == '__main__':
+    # A comment
+    print 'hello world'
+```
 #Slides效果的焦点图
  一款基于slidesjs的左右滑动焦点图插件，带文字标题，也可带文章内容，条状/圆点索引按钮，左右切换，结构简单，调用方便！
 可以根据自己的需要在只修改css的的基础上改变界面风格，配合不同主题，完成不同的定制。
